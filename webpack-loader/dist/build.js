@@ -90,10 +90,22 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.less */ \"./src/index.less\");\n/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_less__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/index.less":
+/*!************************!*\
+  !*** ./src/index.less ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(1111);\r\nfunction fn() {\r\n  return 'fn'\r\n}\r\n\r\nconst a = fn()\r\nconsole.log(\"a\", a)\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n    const style = document.createElement('style');\n    style.innerHTML = \"body {\\n  background-color: red;\\n}\\nbody div {\\n  width: 100px;\\n  height: 100px;\\n  background: #fff;\\n  border-radius: 4px;\\n}\\n\";\n    document.head.appendChild(style)\n  \n\n//# sourceURL=webpack:///./src/index.less?");
 
 /***/ })
 

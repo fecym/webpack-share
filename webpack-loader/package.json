@@ -11,12 +11,16 @@
   "author": "chengyuming <yumingtarget@gmail.com> (https://github.com/fecym)",
   "license": "MIT",
   "dependencies": {
+    "mime": "^2.4.6",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
-    "@babel/types": "^7.11.5"
+    "@babel/types": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "less": "^3.12.2",
+    "loader-utils": "^2.0.0"
   }
 }

@@ -9,12 +9,12 @@ module.exports = {
   resolveLoader: {
     modules: ['node_modules', path.resolve(__dirname, 'loaders')]
   },
-  // module: {
-  //   rules: [
-  //     {
-  //       test: /\.js$/,
-  //       use: 'removeConsole',
-  //     },
-  //   ],
-  // },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        use: 'removeConsoleAsync',
+      },
+    ],
+  },
 };
