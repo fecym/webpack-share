@@ -1,0 +1,49 @@
+{
+  "headTags": [
+    {
+      "tagName": "link",
+      "voidTag": true,
+      "attributes": {
+        "href": "css/main-8626a8.css",
+        "rel": "stylesheet"
+      }
+    }
+  ],
+  "bodyTags": [
+    {
+      "tagName": "script",
+      "voidTag": false,
+      "attributes": {
+        "defer": false,
+        "src": "js/main-8626a8.js"
+      }
+    }
+  ],
+  "outputName": "index.html",
+  "plugin": {
+    "options": {
+      "template": "/Users/cym/code/webpack-3/webpack-plugins/node_modules/html-webpack-plugin/lib/loader.js!/Users/cym/code/webpack-3/webpack-plugins/public/index.html",
+      "templateContent": false,
+      "filename": "index.html",
+      "hash": false,
+      "inject": "body",
+      "scriptLoading": "blocking",
+      "compile": true,
+      "favicon": false,
+      "minify": "auto",
+      "cache": true,
+      "showErrors": true,
+      "chunks": "all",
+      "excludeChunks": [],
+      "chunksSortMode": "auto",
+      "meta": {},
+      "base": false,
+      "title": "Webpack App",
+      "xhtml": false
+    },
+    "childCompilerHash": "28d60b1465805768956f",
+    "childCompilationOutputName": "index.html",
+    "assetJson": "[\"css/main-8626a8.css\",\"js/main-8626a8.js\"]",
+    "version": 4
+  }
+}
